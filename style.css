@@ -1,0 +1,254 @@
+/* ====== Universal CSS ======= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    color: #333;
+}
+p{
+    font-weight: 400;
+    color: #828282;
+    line-height: 28px;
+}
+a, a:hover{
+    font-weight: 500;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.button{
+    color: #fff;
+    background-image: linear-gradient(to left, #FF5234, #FF9552);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.button:hover{
+    background-image: linear-gradient(to right, #FF5234, #FF9552);
+    transition: .5s ease-in-out;
+}
+/* ============================== */
+
+/* ======= Header and Banner Section Started ====== */
+.header-and-banner{
+    padding: 20px 0;
+}
+.banner-left h1{
+    font-size: 50px;
+    color: #333;
+}
+.banner-left h1 span{
+    color: #FF944B;
+}
+.banner-left p{
+    margin: 25px 0 40px;
+    padding-right: 80px;
+}
+.banner-right img {
+    padding: 50px;
+}
+/* ====== Header and Banner Section Ended ====== */
+
+/* ====== About Us Section Started ===== */
+.about-us{
+    background: url(img/bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 90px 0 0px;
+}
+.about-left img{
+    width: 45%;
+}
+.about-right{
+    padding-bottom: 50px;
+}
+.about-right h2{
+    font-size: 35px;
+}
+.about-right p{
+    margin: 20px 0 40px;
+    width: 90%;
+}
+.featured{
+    padding: 70px 0 50px;
+}
+.featured-top-part{
+    width: 70%;
+    margin: auto;
+}
+.featured-top-part h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.featured-top-part p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.package-inner{
+    margin: 0 20px;
+    padding: 20px;
+    box-shadow: 0 0 40px 10px #b9b9b9;
+    border-radius: 10px;
+    text-align: center;
+}
+.package-inner img{
+    height: 240px;
+}
+.package-inner h4{
+    font-size: 22px;
+    margin: 40px 0 10px;
+}
+.package-inner p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+.package-inner a{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* ====== About Us Section Ended ===== */
+
+/* ===== Special Offer Section Started ====== */
+.special-offer{
+    padding: 20px 0 30px;
+}
+
+.special-top-part h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.special-top-part p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.special-1{
+    padding: 0 0 20px;
+}
+.special-1-right img{
+    padding: 50px;
+}
+.special-1-left h2{
+    font-size: 35px;
+}
+.special-1-left p{
+    margin: 20px 0 40px;
+    width: 80%;
+}
+.special-2-right{
+    padding-left: 50px;
+}
+.special-2-left img{
+    padding: 50px 100px 50px 0;
+}
+.special-2-right h2{
+    font-size: 35px;
+}
+.special-2-right p{
+    margin: 20px 0 40px;
+    width: 80%;
+}
+/* ===== Special Offer Section Ended ====== */
+
+/* ===== Contact Us Section Started ====== */
+.contact{
+    padding: 40px 0;
+    background-color: #000;
+}
+.contact-top-part h2{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-top-part p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.contact-inner{
+    width: 50%;
+    margin: auto;
+}
+.form-body{
+    text-align: center;
+    margin-top: 45px!important;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    outline: 0;
+    border-top: 0;
+    border-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+.form-control:focus{
+    border-bottom: 1px solid rgb(52, 233, 7);
+}
+.form-control::placeholder{
+    font-size: 16px;
+    color: #fff;
+}
+/* ===== Contact Us Section Ended ====== */
+
+/* ===== Footer Section Started ====== */
+.footer{
+    padding: 40px 0 30px;
+    background-color: #333;
+}
+.footer-inner{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.footer-inner h3{
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-inner h3 span{
+    color: #FF944B;
+    margin-bottom: 10px;
+}
+.footer-inner p{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+/* ===== Footer Section Ended ====== */
+
